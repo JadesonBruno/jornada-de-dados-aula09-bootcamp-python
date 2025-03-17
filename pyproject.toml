@@ -6,10 +6,11 @@ authors = [
     {name = "JadesonBruno",email = "jadesonbruno.a@outlook.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
     "flake8 (>=7.1.2,<8.0.0)",
-    "pre-commit (>=4.1.0,<5.0.0)"
+    "pre-commit (>=4.1.0,<5.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
 ]
 
 
